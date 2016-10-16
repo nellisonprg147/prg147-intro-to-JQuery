@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PRG147 intro to JQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+
+            $("#witch").click(function () {           //this function moves the witch
+                $("#witch").animate({left: '400px'});
+
+            });
+            $("#bat").mouseenter(function(){              // this moves the bat
+                $("#bat").slideUp(2000)
+                        .slideDown(2000);
+            });
+
+        })
+    </script>
+</head>
+
+<body class="bodycolor">
+    <div class="header" id="head">
+        <h1>Happy Halloween!</h1>
+    </div>
+        <div class="leftImage" id="witch">
+            <img src="images/witch.png">
+        </div>
+        <div class="rightImage" id="bat">
+            <img src="images/bat-clipart-pi5e9bykT.png" >
+        </div>
+
+</body>
+</html>

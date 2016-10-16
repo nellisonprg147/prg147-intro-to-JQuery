@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+
+    font-family: Tohma, Geneva, sans-serif;
+    font-size: 1em;
+}
+
+.bodycolor{
+    background-image: url("images/Halloween-Hd-Wallpapers-2.jpg");
+
+}
+
+.header{
+    background-color: orange;
+    color: black;
+    text-align:center;
+    min-height:100px;
+    font-size: 2em;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.h1{
+    font-family:sans-serif;
+    font-size: 100%;
+}
+
+.h2{
+    font-family:sans-serif;
+    font-size: 100%;
+}
+
+.footer {
+    background-color: transparent;
+    text-align: center;
+    min-height: 50px;
+    padding: 20px;
+    font-size: 1em;
+    margin: auto;
+}
+
+.leftImage{
+    max-width: 50%;
+    float: left;
+    padding: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+
+}
+
+.rightImage{
+    max-width: 50%;
+    float: right;
+    padding: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
